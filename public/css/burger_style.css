@@ -3,16 +3,17 @@
 }
 
 body {
-background: #fce304;
+background:greenyellow;
   }
   
 #burgerHead {
-background: #fce304;
+    background-image: url("../img/Burger_backGround.jpg");
 } 
 
 h1 {
 color:red;
 text-align: center;
+background: whitesmoke;
 }
 
 h3 {
