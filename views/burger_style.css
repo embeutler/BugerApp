@@ -6,8 +6,8 @@ body {
 background:greenyellow;
   }
   
-#burgerHead {
-    background-image: url("../img/Burger_backGround.jpg");
+.burgerHead {
+    background-image: url("public/img/Burger_backGround.jpg");
 } 
 
 h1 {
