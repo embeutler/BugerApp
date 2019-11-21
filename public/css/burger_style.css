@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+background: #fce304;
+  }
+  
+#burgerHead {
+background: #fce304;
+} 
+
+h1 {
+color:red;
+text-align: center;
+}
+
+h3 {
+  color:white;
+  }
+
+li {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
+
+#toEat {
+  background: red;
+  padding-bottom: 20px;
+  margin-right: 10px;
+}
+
+#done {
+  float: left;
+  background: blue;
+  padding-bottom: 20px;
+  margin-left: 10px;
+}
+
+#addBurg {
+  padding:20px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
