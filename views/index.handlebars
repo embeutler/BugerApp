@@ -1,26 +1,25 @@
 <div class="container">
     <div id="burgerHead" class="container">
-        <h1> Its Burger Time </h1>
-        <h2> are you ready</h2>
+        <h1> Its Burger Time are you ready??? </h1>
+        <br>
     </div>
-
     <div class="row">
-        <div class="col-md-2"></div>
-        <div id="toEat" class="col-md-4">
-            <h2>To Eat!</h2>
-            <ul class="list-group list-group-flush">
-                {{#each burgers}}
-                {{#unless devoured}}
-                <li class="list-group-item">
-                    {{burger_name}}
+        <div class="col-md-2">
+            <div id="toEat" class="col-md-4">
+                <h2>To Eat!</h2>
+                <ul class="list-group list-group-flush">
+                    {{#each burgers}}
+                    {{#unless devoured}}
+                    <li class="list-group-item">
+                        {{burger_name}}
 
-                    <button class="change-devour" data-id="{{id}}">Eat Me!</button>
-                </li>
-                {{/unless}}
-                {{/each}}
-            </ul>
+                        <button class="change-devour" data-id="{{id}}">Eat Me!</button>
+                    </li>
+                    {{/unless}}
+                    {{/each}}
+                </ul>
+            </div>
         </div>
-
         <div id="done" class="col-md-4">
             <h3>Done!</h3>
             <ul class="list-group list-group-flush">
@@ -42,9 +41,7 @@
         <div id="addBurg" class="col-med-12">
 
             <h2>What would you like to order?</h2>
-
-		<script src="../burger.js"></script>
-            <form class="create-form">
+          <form class="create-form">
 
                 <div class="form-group">
                     <label for="bn">Burger:</label>
@@ -53,7 +50,6 @@
 
                 <button type="submit"> Submit Order</button>
             </form>
-            		<script src="burger.js"></script>
 
         </div>
     </div>

@@ -5,10 +5,12 @@
 body {
 background:greenyellow;
   }
-  
-.burgerHead {
-    background-image: url("public/img/Burger_backGround.jpg");
-} 
+
+  Header {
+    background-image: url("/public/ASSETS/img/Burger_backGround.jpg");
+background-repeat: no-repeat;
+max-inline-size: 100%;
+  } 
 
 h1 {
 color:red;

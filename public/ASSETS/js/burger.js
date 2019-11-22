@@ -42,7 +42,7 @@ $(function() {
         type: "DELETE"
       }).then(
         function() {
-          console.log("deleted burger", id);
+          console.log("deleted-burger", id);
           location.reload();
         }
       );
