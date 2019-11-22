@@ -5,13 +5,18 @@
 body {
 background:greenyellow;
   }
-
-  Header {
-    background-image: url("/public/ASSETS/img/Burger_backGround.jpg");
+header {
+background-image: url("/public/assets/img/Burger_backGround.jpg");
 background-repeat: no-repeat;
 max-inline-size: 100%;
-  } 
-
+position: relative;
+float: left;
+color: rgb(0, 0, 0);
+font-family: 'PT Mono', monospace;
+font-family: 'Roboto', sans-serif;
+font-size:50pt;
+;
+}
 h1 {
 color:red;
 text-align: center;
